@@ -16,6 +16,18 @@ heapless = "0.7"
 features = ["exit"]
 version = "0.5.2"
 
+[dependencies.modality-probe-sys]
+# If using the Modality debian package
+path = "/usr/share/modality/modality-probe-sys"
+# If using the Modality tarball package
+# For example, if Modality is extracted to /usr/local/modality:
+# export PATH=$PATH:/usr/local/modality/bin
+# export MODALITY_PROBE_VERSION=$(cat /usr/local/modality/VERSION)
+# export MODALITY_PROBE_LIBRARY_DIR=/usr/local/modality/lib/<target-triple>
+#path = "/usr/local/modality/rust/modality-probe-sys"
+features = ["static"]
+default-features = false
+
 [profile.dev]
 codegen-units = 1
 

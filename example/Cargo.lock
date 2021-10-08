@@ -169,7 +169,6 @@ dependencies = [
  "cortex-m 0.7.3",
  "cortex-m-rtic-macros",
  "heapless",
- "modality-probe-sys",
  "rtic-core",
  "rtic-monotonic",
  "version_check",
@@ -273,6 +272,7 @@ dependencies = [
  "cortex-m-semihosting",
  "heapless",
  "lm3s6965",
+ "modality-probe-sys",
  "panic-semihosting",
  "systick-monotonic",
 ]
