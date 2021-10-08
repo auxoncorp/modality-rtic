@@ -1,0 +1,6 @@
+[submodule "rtic-syntax"]
+	path = rtic-syntax
+	url = git@github.com:auxoncorp/rtic-syntax.git
+[submodule "cortex-m-rtic"]
+	path = cortex-m-rtic
+	url = git@github.com:auxoncorp/cortex-m-rtic.git
