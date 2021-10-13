@@ -67,3 +67,31 @@ will synthesize a Modality probe instance in the the task's local resources.
   ```bash
   cargo run
   ```
+  ```text
+  Initializing
+  foo
+  foo
+  foo
+  foo
+  Comms task should send a ModalityProbe report size=69
+  foo
+  foo
+  foo
+  foo
+  Comms task should send a ModalityProbe report size=61
+  foo
+  foo
+  foo
+  foo
+  Comms task should send a ModalityProbe report size=61
+  foo
+  foo
+  foo
+  foo
+  Comms task should send a ModalityProbe report size=61
+  foo
+  foo
+  foo
+  foo
+  All done
+  ```
